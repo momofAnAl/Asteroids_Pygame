@@ -22,7 +22,6 @@ def wrap_position(position, surface):
 
 def load_sound(name):
     filename = Path(__file__).parent / Path("assets/sounds/" + name + ".wav")
-    print("debug", filename)
     return Sound(filename)
 
 def print_text(surface, text, font, color=Color("tomato")):
